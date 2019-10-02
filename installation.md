@@ -38,3 +38,8 @@ sel.xpath('//text()').extract()
 sel.xpath('/html/body/p/text()').extract()
 sel.xpath('//p/text()').extract()
 sel.xpath('//h2/a/@href').extract()
+
+quotes = response.xpath('//*[@class="quote"]')
+quote.extract()
+quote.xpath()
+response.xpath('.//a')
