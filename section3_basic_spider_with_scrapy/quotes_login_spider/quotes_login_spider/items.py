@@ -5,12 +5,10 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-from scrapy import Spider
-from scrapy.loader import ItemLoader 
+import scrapy
 
-class QuotesSpiderItem(scrapy.Item):
+
+class QuotesLoginSpiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    h1_tag = scrapy.Field()
-    tag = scrapy.Field()
     pass

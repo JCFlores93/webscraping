@@ -6,8 +6,6 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class QuotesSpiderPipeline(object):
+class QuotesLoginSpiderPipeline(object):
     def process_item(self, item, spider):
-        if item['h1_tag']:
-            item['h1_tag'] = item['h1_tag'].upperCase()
         return item
